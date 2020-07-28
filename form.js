@@ -20,3 +20,6 @@ else{
   document.getElementById("submit").disabled = true;
 }
 }
+function showAlert(){
+  alert("Information is processed");
+}
