@@ -1,0 +1,23 @@
+body{
+  background: linear-gradient(to right, rgb(203, 241, 255), rgb(248, 251, 220));
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+
+
+}
+.details{
+  font-family: fantasy;
+  padding-top: 14vh;
+  font-size: 2rem;
+}
+
+.formfields{
+  background: rgba(132, 209, 201,1);
+  height: 5vh;
+  width: 15vw;
+  font-size: 1rem;
+  font-weight: bold;
+}

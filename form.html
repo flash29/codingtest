@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="details">
+        <form class="details" action="index.html" method="post">
+          First Name :<input type="text" pattern="[A-Za-z]+" maxlength = "20" id="first" onkeyup="check()" class="formfields"> <br>
+          Last Name :<input type="text" pattern="[A-Za-z]+" maxlength = "20" id="last" onkeyup="check()" class="formfields"> <br>
+          Class :<input type="text" id="grade" onkeyup="check()" class="formfields"> <br>
+          Year of Passing : <input type="date" max="2017-12-31" id="year"  class="formfields"> <br>
+          Percentage of Marks: <input type="number" min="1"max="100" id="marks" onkeyup="check()" class="formfields"> <br>
+          <input type="submit" id="submit" class="formfields" >
+        </form>
+      </div>
+    </div>
+
+    <script type="text/javascript" src='form.js'></script>
+  </body>
+</html>

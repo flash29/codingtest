@@ -1,0 +1,24 @@
+body{
+  display: grid;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(203, 241, 255), rgb(248, 251, 220));
+}
+
+h1{
+  color: rgba(183, 63, 129,1);
+  padding-left: 200px;
+}
+
+table,th,td{
+   border: 3px solid black;
+   padding: 50px;
+   border-collapse: collapse;
+}
+
+.red{
+  color:red;
+}
+
+.green{
+  color:green;
+}
